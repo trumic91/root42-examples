@@ -1,0 +1,14 @@
+services:
+  mailhog:
+    image: mailhog/mailhog:v1.0.1
+    container_name: mailhog-demo
+    restart: unless-stopped
+    ports:
+      - "1025:1025"   # SMTP-Sink - hier liefert swaks/dein Mailclient ein
+      - "8025:8025"   # Web-UI zum Inspizieren der Rohheader
+    networks:
+      - mailhog-demo
+
+networks:
+  mailhog-demo:
+    name: mailhog-demo

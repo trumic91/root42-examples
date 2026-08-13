@@ -7,6 +7,7 @@ Jeder Ordner entspricht einem Blogbeitrag bzw. einer Serie und verlinkt im jewei
 ## Inhalt
 
 - [vaultwarden/](vaultwarden/) — Vaultwarden self-hosten (Serie)
+- [email-spoofing-spf-dkim-dmarc/](email-spoofing-spf-dkim-dmarc/) — E-Mail-Spoofing lokal nachstellen (MailHog + swaks)
 
 ## Lizenz
 
